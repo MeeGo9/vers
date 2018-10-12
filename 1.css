@@ -1,0 +1,497 @@
+/*@font-face {
+    font-family: myriad;
+    src: url(fonts/myriadpro_regular.ttf);
+}*/
+
+@font-face {
+    font-family: 'MyMyriadProRegular';
+    src: url('fonts/myriadpro_regular.eot');
+    src: url('fonts/myriadpro_regular.eot') format('embedded-opentype'),
+    url('fonts/myriadpro_regular.woff') format('woff'),
+    url('fonts/myriadpro_regular.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/MyriadPro-Light.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+body{
+   /* background: url(images/body1.png) no-repeat;*/
+   /* background-position: center*/
+    /*width: 1000px;*/
+    background: #ffffff;
+
+   /* text-align: center*/
+
+
+}
+
+
+/*
+.log{
+    position: relative;
+    display: inline-block;
+    background: url("images/2.png") no-repeat right top;
+}*/
+
+.soc{
+   display: block;
+   /*margin-left: 550px;*/
+    margin-top: 30px;
+    float: right;
+    margin-right: 90px;
+
+}
+.fb, .ct{
+    margin-right: 3px;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+    background: #f3f3f3;
+
+
+
+
+}
+
+
+/*
+div {
+    width: 100%;
+    height: 100%;
+
+    margin: 0 auto;
+}
+*/
+
+
+header{
+    width: 100%;
+    background: #f3f3f3;
+    display: inline-block;
+   /* height: 77px;*/
+    /*  background: #f3f3f3;*/
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 69px;
+    margin-bottom: 5px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: MyriadProRegular;
+    font-size: 40pt;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 69px;
+    margin-bottom: 15px;
+}
+.carpet{
+
+    color: #47687c;
+}
+.about{
+
+    color: #769bb1;
+}
+/*
+.logo{
+float: right;
+    position: absolute;
+    margin-top: -100px;
+}
+
+*/
+.log{
+    position: relative;
+    top: -256px;
+    left: 604px;
+    margin: 0;
+}
+
+nav{
+    width: 800px;
+}
+#menu-block {
+    background: url(images/menu.png)  no-repeat;
+    width: 1000px;
+    height: 440px;
+
+}
+.navi{
+    padding-top: 32px;
+    padding-bottom: 48px;
+  /*  float: left;*/
+   /*clear: left;*/
+   /*margin-bottom: 55px;*/
+    /*margin:25px 25px 75px;*/
+  margin-left: 50px;
+
+}
+
+.navi a {
+    /*text-align: left;*/
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
+    /*padding:  20px;*/
+    font-size: 14pt;
+    padding-right: 23px;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /*padding-top: 1%;
+    padding-bottom: 1%;*/
+    /* margin-left: 25px;*/
+    /*padding-left: 0;*/
+    font-family: 'MyMyriadProRegular';
+    /* font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;*/
+
+}
+
+
+.navi a:hover{
+   /* background: #e9e9e9;*/
+   background: url("images/hover.gif");
+    border-radius: 5px;
+    color: #3a5b70;
+
+}
+
+.text1{
+    text-align: left;
+    margin-left: 69px;
+    /*padding: 57px 50px;*/
+    font-size: 22pt;
+    color: #335062;
+    font-family: 'MyMyriadProRegular';
+}
+
+.your{
+    margin-top: -5px;
+    text-align: left;
+    margin-left: 69px;
+    font-size: 29pt;
+    font-family: 'MyMyriadProRegular';
+    color: #ffffff;
+
+}
+.text2{
+    margin-top: 17px;
+    text-align: left;
+    margin-left: 69px;
+    font-size: 11pt;
+    font-weight: normal;
+    font-family: "Heiti TC";
+}
+
+
+
+
+.wrap {
+    width: 100%;
+    margin-top: -50px;
+    min-height: calc(100vh - 80px);
+
+
+    /* margin: 20px 0 0 72px;*/
+
+
+}
+
+.left {
+    float:left;
+    width: 64%;
+
+
+}
+
+.line{
+    border-color: #dadada;
+    margin-top: 42px;
+}
+
+.right {
+   float: right;
+    width: 36%;
+}
+
+.text3{
+
+    margin-top: auto;
+    margin-left: 70px;
+    /* margin: 85px 0 0 72px;*/
+    /*padding: 0 70px;*/
+    font-family: 'Light';
+    color: #3b5b70;
+    font-size: 22pt;
+
+}
+
+.img2{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: -17px;
+
+
+}
+
+.text4{
+    margin-top: 30px;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+}
+.text4-1{
+    margin-top: 16px;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+}
+
+.our-services{
+    margin-top: 76px;
+}
+.text5{
+
+    margin-left: 69px;
+    /* margin: 85px 0 0 72px;*/
+    /*padding: 0 70px;*/
+    font-family: 'Light';
+    color: #3b5b70;
+    font-size: 22pt;
+
+}
+
+.text6{
+    margin-left: 69px;
+    margin-top: 14px;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+}
+
+.text7{
+    margin-left: 69px;
+    margin-top: 16px;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+}
+
+.str{
+    float: left;
+    margin-left: 10.5%;
+    margin-top: 27px;
+    margin-right: 7px;
+
+
+
+}
+
+.str2{
+    float: left;
+    margin-top: 27px;
+    margin-right: 7px;
+}
+
+.links{
+width: 100%;
+
+}
+
+.links1{
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+    line-height: 20px;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+    text-decoration: underline;
+
+}
+.links1 a{
+    color: #628ba4;
+}
+
+.links2{
+    float: right;
+
+    margin-right: -7%;
+    width: 50%;
+    line-height: 20px;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+    text-decoration: underline;
+}
+
+.links2 a{
+    color: #628ba4;
+}
+
+.delit{
+margin-top: 12px;
+margin-left: -28px;
+    text-align: left;
+}
+
+.text9{
+margin-top: 40px;
+    margin-left: 9%;
+    /* margin: 85px 0 0 72px;*/
+    /*padding: 0 70px;*/
+    font-family: 'Light';
+    color: #3b5b70;
+    font-size: 22pt;
+
+}
+
+.our-images{
+    margin-left: 9%;
+}
+
+.our1, .our2, .our3, .our4, .our5, .our6{
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+}
+
+.text10{
+    margin-top: 45px;
+    margin-left: 9%;
+    font-family: 'Light';
+    color: #3b5b70;
+    font-size: 22pt;
+}
+.date{
+    margin-top: 11px;
+    margin-left: 9%;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+
+}
+
+.text11{
+    margin-top: 11px;
+    margin-left: 9%;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+}
+.delit2{
+    margin-top: 5px;
+    margin-left: 9%;
+}
+
+.date2{
+    margin-top: 10px;
+    margin-left: 9%;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+
+}
+
+.text12{
+    margin-top: 11px;
+    margin-left: 9%;
+    font-family: "Heiti TC";
+    font-size: 10.5pt;
+}
+.bot{
+
+   background: url("images/bot.png");
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    display: inline-block;
+    width: 1000px;
+
+
+
+}
+.temp{
+    font-family: "Heiti TC";
+    font-size: 11pt;
+    padding-top:35px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: #4b5154;
+
+}
+
+.website{
+    color: #7d8285;
+}
+
+.d3{
+    color: #7d8285;
+
+  }
+
+.design{
+    height: 15px;
+    background: url("images/carp.png");
+}
+
+.design2{
+    height: 5px;
+    background: url("images/carp2.png");
+}
+
+
+
+.rr {
+    border-left: 1px solid;
+    border-color: #dadada;
+
+}
+
+                                                     /*About*/
+
+.abouttext{
+    margin-left: 69px;
+    margin-right: 50px;
+    text-align: justify;
+
+}
+
+.mus{
+
+    margin-top: 90px;
+    background: peachpuff;
+}
+.music{
+    margin-left: 69px;
+    font-family: MyriadProRegular;
+    font-size: 26pt;
+}
+
+.home{
+    font-family: MyriadProRegular;
+
+    font-size: 24pt;
+}
+
+.ho{
+    margin-top: 30pt;
+    float: right;
+}
